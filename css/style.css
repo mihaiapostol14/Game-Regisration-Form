@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Dots', cursive;
+}
+
+
+body{
+    display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+    background: #0F0F0F;
+    position: relative;
+}
+.container{
+	max-width: 400px;
+	width: 100%;
+	padding: 20px 30px;
+	background: #202124;
+	border: solid #BC454E 2px;
+	border-radius: 5px;
+
+}
+
+.container .title{
+	position: relative;
+	font-size: 25px;
+	font-weight: 500;
+    margin: 6px;
+    color: #BC454E;
+}
+
+.container .title::before{
+content: '';
+position:absolute;
+width: 60%;
+height: 3px;
+left: 0;
+bottom: 0;
+background: #BC454E;
+}
+
+.container .text_info{
+	display: flex;
+	align-items: left;
+	text-align: left;
+	padding: 5px;
+	font-size: 16px;
+    margin: 6px;
+    color: #BC454E;
+}
+
+.container .input_box{
+    width: 80%;
+    height: 30px;
+    margin: 6px;
+    border-color: #202124;
+    background: #202124;
+    color: #BC454E;
+}
+
+.input_box::placeholder{
+    font-weight: 100;
+    color: #BC454E;
+}
+
+.container .btn_submit{
+    position: relative;
+    width: 50%;
+    left: calc(50% /2 - 5%);
+    font-size: large;
+    height: 30px;
+    margin: 6px;
+    border: 0;
+    color: #fff;
+    background: #BC454E;
+}
