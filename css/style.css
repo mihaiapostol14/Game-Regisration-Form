@@ -69,6 +69,11 @@ background: #BC454E;
     color: #BC454E;
 }
 
+
+input{
+    outline: 0;
+}
+
 .container .btn_submit{
     position: relative;
     width: 50%;
