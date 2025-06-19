@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  
 </head>
 <body>
-    <div class="container">
-        <div class="title">Registration</div>
-        <form action="#" method="POST">
-            <span class="text_info">Player User Name</span>
-            <input type="text" class="input_box" placeholder="PlayerName"  name="PlayerName" id=" PlayerName" maxlength="50" minlength="5" required>
-            <span class="text_info">First Name</span>
-            <input type="text" class="input_box" class="input_box" placeholder="Piter"  name="Firstname" id=" Firstname" maxlength="50" minlength="5" required>
-            <span class="text_info">Last Name</span>
-            <input type="text" class="input_box" placeholder="Parker"  name="Lastname" id=" Lastname" maxlength="50" minlength="5" required>
-            <span class="text_info">Email Address</span>
-            <input type="email" class="input_box" placeholder="PiterParker@gmail.com"  name="Emailaddress" id=" Emailaddress" required>
-            <span class="text_info">Password</span>
-            <input type="text"class="input_box" placeholder="Enter Password"  name="Password" id=" Password" maxlength="50" minlength="8" required>
-            <button type="submit" class="btn_submit" name="submit_button" id="submit_button">Registration</button>
-        </form>
-    </div>
+  <div class="container">
+    <div class="title">Registration</div>
+    <form action="#" method="POST">
+      
+      <div class="input-box">
+        <label class="text-info" for="PlayerName">Player User Name</label>
+        <input type="text" placeholder="PlayerName" name="PlayerName" id="PlayerName" maxlength="50" minlength="5" required>
+      </div>
+
+      <div class="input-box">
+        <label class="text-info" for="Firstname">First Name</label>
+        <input type="text" placeholder="Piter" name="Firstname" id="Firstname" maxlength="50" minlength="5" required>
+      </div>
+
+      <div class="input-box">
+        <label class="text-info" for="Lastname">Last Name</label>
+        <input type="text" placeholder="Parker" name="Lastname" id="Lastname" maxlength="50" minlength="5" required>
+      </div>
+
+      <div class="input-box">
+        <label class="text-info" for="Emailaddress">Email Address</label>
+        <input type="email" placeholder="PiterParker@gmail.com" name="Emailaddress" id="Emailaddress" required>
+      </div>
+
+      <div class="input-box">
+        <label class="text-info" for="Password">Password</label>
+        <input type="password" placeholder="Enter Password" name="Password" id="Password" maxlength="50" minlength="8" required>
+      </div>
+
+      <button type="submit" class="btn-submit" name="submit_button" id="submit_button">Registration</button>
+    </form>
+  </div>
 </body>
 <link rel="stylesheet" href="../css/style.css">
+<script  type="text/javascript" src="../js/script.js"></script>
 </html>
